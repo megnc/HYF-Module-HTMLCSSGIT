@@ -1,0 +1,40 @@
+body {
+    background-image: url(https://img.freepik.com/free-vector/elegant-white-background-with-shiny-lines_1017-17580.jpg?w=2000);
+    margin: 0 auto;
+}
+html{
+    font-size: 20px;
+}
+h1{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+img {
+    position: relative;
+    border-radius: 50%;
+    width: 300px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: -5%;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    justify-content: space-evenly;
+
+}
+
+.container div {
+    background-color: RGBA(81,242,255,0.26)
+    ;
+    margin: 10px;
+    padding: 50px;
+    font-size: 1rem;
+
+}
+

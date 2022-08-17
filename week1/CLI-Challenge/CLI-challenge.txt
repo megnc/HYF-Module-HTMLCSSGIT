@@ -1,0 +1,8 @@
+~Command Line Interface Challenge 
+
+	1. a. to create hidden file or folder we add (.) dot to filer or folder --> $ mkdir .hiddenfile
+           b. to display hiden file or folder in CLI we use ls command but with (-a) --> $ ls -a <path>
+
+	2. to create multiple nested directories we use (-p) with mkdir command --> $ mkdir -p C/just/for/fon
+	3. to append a message to a file without new line character we use second greater-than sign (>) after echo and message --> echo 'message-hello world' >> file or file.txt 
+
