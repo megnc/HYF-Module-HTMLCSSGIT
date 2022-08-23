@@ -1,0 +1,356 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Uber Move Text', sans-serif;
+    font-weight: 300;
+}
+
+.header {
+    
+}
+
+header .navbar {
+   height: 50px; ;
+   margin-bottom:  ;
+   
+}
+
+header .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    
+}
+
+header .navbar li {
+    display: inline-block;
+    padding: 20px ;
+    
+}
+
+header .navbar li a {
+   
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 20px ;
+}
+
+header .navbar .signup a {
+    border: 1px solid black;
+    border-radius: 20px ;
+    color:black;
+    background-color: white ;
+    padding: 10px;
+}
+
+header .navbar li a:hover {
+    background-color: grey;
+    
+}
+
+.rightside {
+    float: right;
+}
+
+.info-card {
+    position: absolute;
+    display: flex ;
+    flex-direction: column;
+    width: 550px;
+    height: 540px;
+    background-color: white;
+    margin: 20px 0;
+    z-index: 1;
+    left: 20%;
+     transform: translate(-50% -50%);
+    
+}
+.card-header li {
+    display: inline-block;
+    padding: 10px 10%;
+    text-align: center;
+  
+}
+
+.card-header li a {
+    text-decoration: none;
+    color: black;
+}
+
+.card-header {
+    position: relative ;
+    background-color: rgb(240, 240, 234);
+    border-bottom: 0.2px solid rgb(222, 220, 220);
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+.card-main{
+    padding: 0 60px;
+
+}
+.card-main h1{
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 20px ;
+}
+
+.card-main p, button, footer {
+    margin: 10px 0 ;
+}
+
+button {
+    padding: 10px;
+    border-radius: 10px;
+    color:white;
+    background-color: black;
+}
+
+.card-main .card-footer {
+    border-bottom: 1px solid rgb(225, 225, 225);
+    margin-bottom: 30px;
+}
+
+.header-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    max-height: 600px ;
+}
+
+.uber-for-business {
+    background: url("https://www.uber-assets.com/image/upload/v1613522699/assets/28/5b0222-7869-4658-b2ca-80a3890a2b69/original/DotCom_Update_U4B_bg_ipad.png");
+    background-position: center right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+    padding: 50px 0;
+    line-height: 3;
+}
+
+.uber-for-business .mainn {
+    position: relative;
+    left: 20%;
+     transform: translate(-50% -50%);
+}
+
+main {
+    position: relative;
+  /** left: 20%;
+   transform: translate(-50% -50%);
+   width: 1000px; **/
+   
+}
+main p, footer {
+    font-size: 13px;
+}
+.main-grid {
+    display: grid;
+    grid-template-columns: 450px 450px;
+    gap: 70px 10px;
+    margin-bottom: 50px;
+}
+
+.grid-wrap {
+margin-bottom: 50px;
+position: relative;
+left: 20%;
+transform: translate(-50% -50%);
+}
+
+.grid-item footer li {
+text-decoration: none;
+list-style-type: none
+;
+}
+
+.grid-item img {
+    width: 430px;
+    margin: 20px 0;
+}
+
+.small-grid {
+    display: grid;
+    grid-template-columns: 290px 290px 290px;
+    gap: 20px 10px;
+}
+
+.small-grid img {
+    width: 18px;
+}
+.small-grid-item img, h4, h6, footer {
+    margin-bottom: 15px;
+    font-weight: 300;
+    font-size: 14px;
+
+}
+
+.small-grid-item li {
+    list-style-type: none;
+}
+
+.container {
+    background-color: rgb(215, 212, 212);
+    width: 100%;
+    height: 340px;
+   
+}
+
+.grid-container, .register-container   {
+    position: relative;
+    left: 20%;
+    transform: translate(-50% -50%);
+    display: grid;
+    grid-template-columns: 440px 440px;
+    gap: 30px 30px;
+    align-items: center;
+}
+
+.container h2 {
+    font-weight: 500;
+    font-size: 1.7rem;
+    padding:40px 0 ;
+    position: relative;
+    left: 20%;
+    transform: translate(-50% -50%);
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid rgb(209, 209, 209)
+}
+
+.cards img {
+    width: 120px ;
+    padding: 20px 0px;
+
+}
+
+.cards h3{
+    padding-left: 10px;
+    font-size: 1.2rem;
+    font-weight: 400;
+
+}
+
+.rg-con {
+    border-bottom: 1px solid black;
+    margin-top: 30px ;
+}   
+
+.rg-con p {
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 40px 0;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    height: auto;
+    background-color: black;
+    color: white;
+}
+
+.footer .columns {
+    width: 190px;
+    height: auto;
+    float: left;
+}
+
+.footer .columns h3 {
+    font-weight: 400;
+}
+
+.footer-main {
+    position: relative;
+    left: 20%;
+    transform: translate(-50% -50%);
+    width: 1000px;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: white;
+    line-height: 2.5;
+}
+
+.footer ul {
+    list-style-type: none;
+}
+
+.footer-nav a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.container-bottom {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 30px 0;
+}
+
+.footer-nav {
+    margin-top: 80px;
+}
+
+nav.footer-nav {
+   display: flex;
+   flex-direction: row ; 
+}
+
+.logos {
+    display: flex;
+    flex-direction: row;
+}
+
+.logos ul li {
+    display: inline-block;
+    padding: 15px;
+}
+
+.logos img {
+    width: 80px;
+}
+
+.logos .floatt {
+    float: right;
+    padding-left: 300px;
+
+}
+
+
+
+.footer-of-footer  {
+    display: grid; 
+    grid-template-columns: auto auto;
+    align-items: baseline;
+    padding-bottom: 80px;
+
+}
+
+.footer-of-footer ul {
+    padding-left: 330px;
+
+}
+
+.footer-of-footer ul li {
+    display: inline;
+    padding-left: 30px;
+}
